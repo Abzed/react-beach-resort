@@ -35,7 +35,7 @@ export default class SingleRoom extends Component {
         
         return (
             <>
-            <StyledHero img={images[0]}>
+            <StyledHero img={images[0] || mainImg}>
             <Banner title={`${name} room`}>
             <Link to='/rooms' className='btn-primary'>Back TO Rooms</Link>
             </Banner>
