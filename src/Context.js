@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import items from './data';
 import Client from './Contentful';
 
 // Client.getEntries({
@@ -86,7 +85,7 @@ export default class RoomProvider extends Component {
 
     filterRooms = () => {
         let{
-            rooms, type, capacity, price, minPrice, maxPrice, minSize, 
+            rooms, type, capacity, price, minSize, 
             maxSize, breakfast, pets
         } = this.state
 
